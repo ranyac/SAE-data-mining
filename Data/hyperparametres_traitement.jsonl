@@ -1,0 +1,27 @@
+{
+    "racinisation": {
+      "ignore_stopwords": [true, false]
+    },
+    "lemmatisation": {
+      "mode": ["lookup", "rule"],
+      "overwrite": [true, false]
+    },
+    "comptages_simples": {
+      "ngram_range": [[1, 1], [1, 2]],
+      "max_features": [null, 5000]
+    },
+    "comptages_ponderes": {
+      "ngram_range": [[1, 1], [1, 2], [2, 2]],
+      "max_features": [null, 5000],
+      "norm": ["l2", "l1"]
+    },
+    "decomposition_tronquee": {
+      "n_components": [50, 100, 200],
+      "n_iter": [5, 10,15],
+    },
+    "factorisation_matrices_non_negatives": {
+      "n_components": [50, 100, 200],
+      "init": ["random", "nndsvd","use_idf"],
+    }
+  }
+  
