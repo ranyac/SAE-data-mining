@@ -9,11 +9,11 @@
     }
   },
   "vectorization": {
-    "comptages_simples": {
+    "vectorisation_simple": {
       "ngram_range": [[1, 1], [1, 2]],
       "max_features": [null, 5000]
     },
-    "comptages_ponderes": {
+    "vectorisation_ponderee": {
       "ngram_range": [[1, 1], [1, 2], [2, 2]],
       "max_features": [null, 5000],
       "norm": ["l2", "l1"]
