@@ -12,7 +12,7 @@
       "fit_prior": [true, false]
     },
     "RegressionLogistique": {
-      "penalty": ["l1", "l2", "elasticnet", "none"],
+      "penalty": ["l2", null],
       "C": [0.01, 0.1, 1.0, 10.0],
       "solver": ["liblinear", "saga", "lbfgs", "newton-cg"],
       "max_iter": [100, 500, 1000],
