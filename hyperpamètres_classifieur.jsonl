@@ -36,7 +36,7 @@
     "ForetAleatoire": {
       "n_estimators": [100, 200, 500],
       "criterion": ["gini", "entropy"],
-      "max_depth": [null, 10, 20, 30],
+      "max_depth": [10, 20, 30],
       "min_samples_split": [2, 5, 10],
       "min_samples_leaf": [1, 2, 5],
       "max_features": ["sqrt", "log2", null],
